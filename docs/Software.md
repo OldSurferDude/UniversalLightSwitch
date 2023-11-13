@@ -131,16 +131,7 @@ This is a really complicated routine. The goal is to determine which key has bee
             * Toggle the key (mindful of on state)
             * Perform the action that is associated with the key and send the change to the MQTT broker (`actOnKeyPressed`)
 
-
-```
-
-
-## processDataForPanel
-
-```
-
-
-
+## `processDataForPanel
 * Indicate that the data was processed
 * Do the following for each key
     * Indicate that it is desired to get the attributes.  
@@ -169,20 +160,9 @@ This is a really complicated routine. The goal is to determine which key has bee
             * Display the key according to its ONoff value (`lightUpKey`)
             * (activity key updates will come from the aforementioned subscribe)
 
-
-```
-
-
-## actOnKeyPressed
-
-```
-
-
-
-* If the key is an activity, type `a`
-
+## `actOnKeyPressed`
+* If the key is an activity, type `a`<br
         ON values are greater than zero and less than 100.  off would be 0 and invalid is 255 which would be displayed as off
-
     * Display the key according to its ONoff value (`lightUpKey`)
 * If the key is a menu, type `p`
     * Publish the next menu to the subtopic of the host topic that has the message that is the panel index of the last panel that was on the device, (see On connection to network and MQTT broker)
