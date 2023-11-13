@@ -56,7 +56,7 @@ The Universal Light Switch (ULS) requires three topics plus 1 topic for each dev
 
     * <code>ULS/<strong><em>device</em></strong>/panel</code>
 
-        This is the value of the current panel in the device.
+        This is the value of the index of the current panel in the device.
 
 
 
