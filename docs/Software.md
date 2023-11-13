@@ -4,26 +4,15 @@
 ## Version 49
 # Notes and definitions
 
-Please see <span style="text-decoration:underline;">Universal Light Switch: Overview</span>
-
-The software is written for the hardware.  Please se <span style="text-decoration:underline;">Universal Light Switch: hardware</span>
-
-The language is C++ and is developed in the Arduino Integrated Development Environment ver 2.2.1 (IDE)
-
-Please see [MQTT](https://mqtt.org/) for more information.
-
-“Publish” means to send a message to a topic on the MQTT broker.
-
-“Subscribe” means that a message sent to a topic on the MQTT broker will be forwarded to the sending device.
-
-“Unsubscribe” means that messages will no longer be forwarded.
-
-In this environment, the initialization of this MQTT client is done upon boot, but before any other initialization is started. 
-
-All messages will be sent with [the retain flag](https://www.hivemq.com/blog/mqtt-essentials-part-8-retained-messages/) set. This effectively makes all of the configuration and activity data for the device non-volatile.
-
-“ISR” means Interrupt Service Routine, in MQTT parlance, callback.
-
+* Please read the README.md which is an overview of the design<br>
+* The software is written for the hardware.  Please read docs/hardware<br>
+* The language is C++ and is developed in the Arduino Integrated Development Environment ver 2.2.1 (IDE)<br>
+* Please see [MQTT](https://mqtt.org/) for more information.<br>
+* “Publish” means to send a message to a topic on the MQTT broker.<br>
+* “Subscribe” means that a message sent to a topic on the MQTT broker will be forwarded to the sending device.<br>
+* “Unsubscribe” means that messages will no longer be forwarded.<br>
+* All messages will be sent with [the retain flag](https://www.hivemq.com/blog/mqtt-essentials-part-8-retained-messages/) set. This effectively makes all of the configuration and activity data for the device non-volatile.<br>
+* “ISR” means Interrupt Service Routine, in MQTT parlance, callback.
 
 # Environment
 
@@ -49,19 +38,13 @@ A terminal emulator, or command line interface (CLI) can be used to download the
 
 ## Libraries
 
-[EspMQTTClient](https://github.com/plapointe6/EspMQTTClient) version 1.13.3
-
-[ESP_EEPROM](https://github.com/jwrw/ESP_EEPROM) version 2.2.0
-
-SPI (part of the IDE)
-
-[Ucglib](https://github.com/olikraus/ucglib) version 1.52
-
-[XPT2046](https://github.com/PaulStoffregen/XPT2046_Touchscreen) version 1.4
-
-[ESP_EEPROM](https://github.com/jwrw/ESP_EEPROM) version 2.2.0
-
-Please see <span style="text-decoration:underline;">XPTCalibrate_07</span>, For storing the necessary calibration constants for the touch screen
+* [EspMQTTClient](https://github.com/plapointe6/EspMQTTClient) version 1.13.3<br>
+* [ESP_EEPROM](https://github.com/jwrw/ESP_EEPROM) version 2.2.0<br>
+* SPI (part of the IDE)<br>
+* [Ucglib](https://github.com/olikraus/ucglib) version 1.52<br>
+* [XPT2046](https://github.com/PaulStoffregen/XPT2046_Touchscreen) version 1.4<br>
+* [ESP_EEPROM](https://github.com/jwrw/ESP_EEPROM) version 2.2.0<br>
+* Please see <span style="text-decoration:underline;">XPTCalibrate_07</span>, For storing the necessary calibration constants for the touch screen
 
 
 ## Variables and constants
