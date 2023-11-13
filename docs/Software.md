@@ -71,21 +71,13 @@ Enable the Last Will of this device on the MQTT broker<br>
 
 ## On connection to network and MQTT broker
 
-Publish that the device is online and the version of the software
+Publish that the device is online and the version of the software<br>
+Capture the IP address of the devices and display on the edge of the display<br>
+Subscribe to the subtopic of the host topic that has the message that is the panel index of the last panel that was on the device, (eg. host topic/panel).  This subscription will always be in place so that the panel can be changed from an external source by publishing to the aforementioned topic.<br>
+The callback (ISR) for this subscription will<br>
 
-Capture the IP address of the devices and display on the edge of the display
-
-Subscribe to the subtopic of the host topic that has the message that is the panel index of the last panel that was on the device, (eg. host topic/panel).  This subscription will always be in place so that the panel can be changed from an external source by publishing to the aforementioned topic.
-
-The callback (ISR) for this subscription will 
-
-
-    Capture the last known panel index for this device
-
-
-    And then use that number to subscribe to the topic of panel configurations. (eg. ULS/panel/_n_ where _n_ is the last known panel index for this device
-
-
+    Capture the last known panel index for this device<br>
+    And then use that number to subscribe to the topic of panel configurations. (eg. ULS/panel/_n_ where _n_ is the last known panel index for this device<br>
     The callback (ISR) `acquireDataForPanel` for this subscription will be `acquireDataForPanel`
 
 
