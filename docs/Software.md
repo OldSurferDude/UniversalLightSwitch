@@ -164,16 +164,7 @@ This is a really complicated routine. The goal is to determine which key has bee
 * If the key is a menu, type `p`
     * Publish the next menu to the subtopic of the host topic that has the message that is the panel index of the last panel that was on the device, (see On connection to network and MQTT broker)
 
-
-```
-
-
-## lightUpKey
-
-```
-
-
-
+### `lightUpKey`
 * If they key is in the on state
     * Black out the box
     * Set the color from the key attributes
@@ -187,28 +178,10 @@ This is a really complicated routine. The goal is to determine which key has bee
     * Set the color from the key attributes
 * Print each line in the box
 
-
-```
-
-
-## clearKeyAttributes
-
-```
-
-
-
+### `clearKeyAttributes`
 * Set  the attributes of the key to default
 
-
-```
-
-
-## displayUpdating
-
-```
-
-
-
+## `displayUpdating`
 * Calculate where on the display for the key to  print
 * If it is indicated to display
     * Set the color to cyan
@@ -217,45 +190,20 @@ This is a really complicated routine. The goal is to determine which key has bee
 * If it is indicated not to display
     * Black out the key
 
-
 ## 	Callbacks (ISR)
-
-The callback for messages coming from the device’s panel topic is described in On connection to network and MQTT broker
-
-
-```
-
-
-### acquireDataForPanel
-
-```
-
-
-
+The callback for messages coming from the device’s panel topic is described in On connection to network and MQTT broker<br>
+### `acquireDataForPanel`
 * Extract the panel index from the topic
 * If the incoming panel index is the same as the current panel, panel is already loaded and doesn’t need to be reloaded exit the routine
 * Set the the current panel to the incoming panel
-* Extract the type and index for each key
-
-    The index will be used in getting the attribute data for the key
-
-
-    (in the case of a menu key, the index will be used to point to the next panel)
-
+* Extract the type and index for each key<br>
+    The index will be used in getting the attribute data for the key<br>
+    (in the case of a menu key, the index will be used to point to the next panel)<br>
     * This takes a while, so ensure the network is up to date while doing this
 * Indicate that there is panel data to be processed (see: Repeat forever (loop))
 * Indicate the panel data was acquired (see: see: Repeat forever (loop))
 
-
-```
-
-
-## updateKeysAttributes
-
-```
-
-
-
+### `updateKeysAttributes`
 * Set the key from the global key
 * If the type is menu (`p`), 
     * Extract the next menu index from the message
@@ -263,32 +211,19 @@ The callback for messages coming from the device’s panel topic is described in
 * Extract the color for the key from the message
 * Indicate that the key have been updated (see `processDataForPanel`)
 
-
-```
-
-
-## incomingActivityChange
-
-```
-
-
-
+### `incomingActivityChange`
 * Extract the activity index from the topic
 * Determine the key using the activity to key array
 * Update the key’s state
 * Indicate that an activity change came in (so that the loop will process it)
 
-
 # Data structures
-
-Data structures are in [JSON](https://www.json.org/json-en.html) format.
+Data structures are in [JSON](https://www.json.org/json-en.html) format<br>
 
 It is very important to adhere to these structures as an invalid structure will probably cause the device to crash.  The limited memory of the device precludes rigorous data checking.  That checking could be done in a yet-to-be-developed program.
 
-
 ## panel
-
-This data is the configuration for the device.
+This data is the configuration for the device.<br>
 
 The six entries are associated with keys and are order dependent.
 
