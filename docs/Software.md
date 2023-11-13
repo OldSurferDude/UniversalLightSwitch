@@ -94,23 +94,12 @@ A description of the variables and constants used is found in the code
 
 
 ## Subroutines
-
-
-```
-
-
-## checkTouch
-```
-
+### `checkTouch`
 
 This is a really complicated routine. The goal is to determine which key has been pressed then perform the action associated with that key.  Sounds simple, but it’s not.
 
-
-
-* If the panel is being touched
-
-        <span style="text-decoration:underline;">Deal with the backlight</span>
-
+* If the panel is being touched:<br>
+  * Deal with the backlight<br>
     * If the backlight was off
         * Update the status to the on state (future: allow for change in brightness)
         * Turn the backlight on to the the on state
