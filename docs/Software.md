@@ -57,28 +57,17 @@ A description of the variables and constants used is found in the code
 
 ## Hardware and variable initialization (Setup)
 
-Serial port (for debugging)
-
-Hardware control of display backlight
-
-The mode and font to be used by the display
-
-Clear the display
-
-In the zone to be used to indicate that the device is to be reset, display the word RESET in a red box
-
-Set the host topic, derived from hostname which is provided by the hardware
-
-On the edge of the display, display the host name
-
-On the edge of the display, display the software version
-
-Set calibration of touch screen from data stored in non-volatile memory
-
-Enable the Over-The-Air program update function
-
-Enable the Last Will of this device on the MQTT broker
-
+Serial port (for debugging)<br>
+Hardware control of display backlight<br>
+The mode and font to be used by the display<br>
+Clear the display<br>
+In the zone to be used to indicate that the device is to be reset, display the word RESET in a red box<br>
+Set the host topic, derived from hostname which is provided by the hardware<br>
+On the edge of the display, display the host name<br>
+On the edge of the display, display the software version<br>
+Set calibration of touch screen from data stored in non-volatile memory<br>
+Enable the Over-The-Air program update function<br>
+Enable the Last Will of this device on the MQTT broker<br>
 
 ## On connection to network and MQTT broker
 
