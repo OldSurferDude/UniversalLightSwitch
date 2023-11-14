@@ -92,110 +92,22 @@ Let’s say the Sonoff D1 is in the dining room.  Let’s set its activity index
 
 This is a JSON format.  What follows the `L` is the six lines of six characters that make up the label on the display.  **There must be six lines**, but some lines may be blank (`""`) and only the first six characters are used.  This is what the label would look like:
 
-
-<table>
-  <tr>
-   <td><code> ____ </code>
-<p>
-<code>DINING</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-OFF
-   </td>
-   <td><code> ____ </code>
-<p>
-<code>DINING</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-ON
-   </td>
-  </tr>
-</table>
-
+<img src="../img/DiningONoff.jpg">
 
 This data would be published to the topic <code>ULS/activity/<strong><em>o</em></strong>/label</code> (the <strong><code><em>o</em></code></strong> is a zero)
 
 The activity must have an initial state.  Thus 0 could be written to the topic <code>ULS/activity/<strong><em>o</em></strong></code>  NOTE: In Version 49 of the software, ON is 100 and OFF is 0.
 
 Similarly the Sonoff Basic R2 for a fan and the data published to <code>ULS/activity/<strong><em>1</em></strong>/label</code>
-
-
 ```
 {"L":["",""," FAN","","",""],"C":[132,188,255]}
-
-
-<table>
-  <tr>
-   <td>
 ```
-
-<code> FAN</code>
-<p>
-OFF
-   </td>
-   <td><code>  </code>
-<p>
-<code> FAN</code>
-<p>
-ON
-   </td>
-  </tr>
-</table>
-
-
+<img src="../img/FanONoff.jpg">
 And a pump for the LLS, and the data published to topic <code>ULS/activity/<strong><em>2</em></strong>/label</code>
-
-
 ```
 {"L":["+----+","|    |","|PUMP|","|    |","|    |","+----+"],"C":[225,122,64]}
-
-
-<table>
-  <tr>
-   <td>```
-
-<code>+----+</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|PUMP|</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-<code>+----+</code>
-<p>
-OFF
-   </td>
-   <td><code>+----+</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|PUMP|</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-<code>+----+</code>
-<p>
-ON
-   </td>
-  </tr>
-</table>
-
-
+```
+<img src="../img/PumpONoff.jpg">
 
 ## Menu items
 
