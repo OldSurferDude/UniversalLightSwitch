@@ -1,11 +1,6 @@
-pre.CodeMirror-line {
-    line-height: 1.1 !important;
-}
 # Universal Light Switch
 
-
 ## Hardware
-
 
 # Parts
 * [ESP-12F](https://www.aliexpress.us/item/2251801851082242.html)
@@ -106,7 +101,7 @@ pre.CodeMirror-line {
         19. Cut two pieces of tubing 8mm long. Slide one down the white wire until the tubing covers the wrapped wire.
         20. Similarly, slide tubing down both black wires until the tubing covers the wrapped wires
         21. Use heat gun to shrink tubing
-    22. Wrapping VCC and EN  <img src="../img/Wrapping 12F to TFT initial.jpg">
+    22. Wrapping VCC and EN  <img src="../img/Wrapping VCC and EN.jpg">
         1. Cut a 100mm and a 50 mm length of red wire-wrap wire and strip the ends 12mm
         23. Place 1mm of tubing over the VCC pin
         24. Wrap one end of both wires onto the VCC pin
