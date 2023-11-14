@@ -103,6 +103,7 @@ Similarly the Sonoff Basic R2 for a fan and the data published to <code>ULS/acti
 {"L":["",""," FAN","","",""],"C":[132,188,255]}
 ```
 <img src="../img/FanONoff.jpg">
+
 And a pump for the LLS, and the data published to topic <code>ULS/activity/<strong><em>2</em></strong>/label</code>
 ```
 {"L":["+----+","|    |","|PUMP|","|    |","|    |","+----+"],"C":[225,122,64]}
@@ -145,47 +146,4 @@ The menu items are similar, with two exceptions.  There `N` attribute, which is 
 
 When all loaded (it may take some time), the panel will look like:
 
-
-<table>
-  <tr>
-   <td><code>+----+</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|PUMP|</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-<code>+----+</code>
-   </td>
-   <td><code> FAN</code>
-   </td>
-  </tr>
-  <tr>
-   <td><code> ____ </code>
-<p>
-<code>DINING</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-<p>
-<code>|    |</code>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><code>LUNCH</code>
-<p>
-<code>2</code>
-   </td>
-   <td><code>DOCTOR</code>
-<p>
-<code>0</code>
-   </td>
-  </tr>
-</table>
-
+<img src="../img/Panel.jpg">
