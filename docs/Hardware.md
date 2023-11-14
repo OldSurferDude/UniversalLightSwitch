@@ -44,44 +44,20 @@ pre.CodeMirror-line {
 
 
 ## Consumables
-
-
-
-* 
-[Solder](https://www.aliexpress.us/item/3256805477891963.html)
-
-
-* 
-[30 AWG Wire wrap wire](https://www.aliexpress.us/item/2251832847284079.html)
-
-
-* 
-Cyanoacrylate (super glue)
-
-
-* 
-[20 AWG hookup wire](https://www.amazon.com/Silicone-Electric-Cable-Colors-WYEUTO/dp/B089SR96HN/ref=sr_1_6) 
-
-
-* 
-Heat shrink tubing
-
-
-* 
-bottom of the Box
+* [Solder](https://www.aliexpress.us/item/3256805477891963.html)
+*[30 AWG Wire wrap wire](https://www.aliexpress.us/item/2251832847284079.html)
+* Cyanoacrylate (super glue)
+* [20 AWG hookup wire](https://www.amazon.com/Silicone-Electric-Cable-Colors-WYEUTO/dp/B089SR96HN/ref=sr_1_6) 
+* Heat shrink tubing
+* bottom of the Box
 
 # Tools
 
-Soldering station
-
-Heat gun
-
-Wire wrap tool
-
-Needle nose pliers
-
-Exacto knife
-
+* Soldering station
+* Heat gun
+* Wire wrap tool
+* Needle nose pliers
+* Exacto knife
 
 # Construction
 
