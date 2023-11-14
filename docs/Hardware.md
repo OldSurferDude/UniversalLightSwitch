@@ -89,9 +89,9 @@ pre.CodeMirror-line {
     19. The 2mm end of the white wire gets put up through the bottom of the Buck Converter in the hole labeled ‘N’ and solder from the top
     20. The 2mm end of the black wire gets put up through the bottom of the Buck Converter in the hole that is in the corner near the label ‘C2’ and solder from the top
 6. Wire wrapping
-    1. The 3.3kΩ goes between GPIO15 and GND.  This gets tricky. ![Wrapping resistor](https://lh3.googleusercontent.com/drive-viewer/AK7aPaDGMqNcJLd8Hjr3pZcEuHN9nE5k89FDZoN2Rnx7bvpqvP6bAySqGfCcFh9Sz24X1VxDlVat5ITRYDv_5sYRN8ukJTxj=s2560)  
+    1. The 3.3kΩ goes between GPIO15 and GND.  This gets tricky. <img src="../img/Wrapping resistor.jpg">
         1. Bend the leads of the resistor parallel at right angles to resistor
-        11. Cut two 2mm lengths of 1mm shrink tubing and put them over each lead  ![Bend Resistor](https://lh3.googleusercontent.com/drive-viewer/AK7aPaB9WuHB4LHtGb7lN6o9T8HNw1w8yw4NMfqGj3s2AZhEim4a6oeTN1gDVK-k2oQ4NhMgyGp4oJRQUiM7ThxxPhXTqOCYmg=s2560)  
+        11. Cut two 2mm lengths of 1mm shrink tubing and put them over each lead  <img src="../img aex="Bend resistor.jpg"> 
         12. After pushing the tubing all the way to the resistor, bend both leads up at a 90° angle.  
         13. Put a 1mm length of tubing on each of the GPIO15 and GND pins of the header (this is to keep the pins from shorting to the case of the ESP-12F)
         14. Set the resistor on the ESP-12F so that the resistor leads are near the GPIO15 and GND pins and cut the leads to the length of the header pins
@@ -106,7 +106,7 @@ pre.CodeMirror-line {
         19. Cut two pieces of tubing 8mm long. Slide one down the white wire until the tubing covers the wrapped wire.
         20. Similarly, slide tubing down both black wires until the tubing covers the wrapped wires
         21. Use heat gun to shrink tubing
-    22. Wrapping VCC and EN  ![Wrapping VCC and EN](https://lh3.googleusercontent.com/drive-viewer/AK7aPaCY0mUceWxy8MtA8oQRdaB_DR2ICqoPq0Oajtn5MWQVdmHkY4Rsh3pT7tXHqF3Y7Vx36oBRU1r7O3KQe66-7EIUFK5QGA=s2560)  
+    22. Wrapping VCC and EN  <img src="../img/Wrapping 12F to TFT initial.jpg">
         1. Cut a 100mm and a 50 mm length of red wire-wrap wire and strip the ends 12mm
         23. Place 1mm of tubing over the VCC pin
         24. Wrap one end of both wires onto the VCC pin
@@ -119,9 +119,8 @@ pre.CodeMirror-line {
         31. Push the 8mm of tubing over both wires and EN pin to cover wire wrapping
         32. Use heat gun to shrink tubing
     23. Wrapping data and control pins. The chart/picture below shows pins of the ESP-12F and to which pin of the display the pin must be connected.   The GND and VCC pins already have the wires connected to the ESP-12F.  One red and one black wire will be connected to the buck converter.  Use the picture to the right as a guide to the display pins.  Repeat for each wire:
-![ESP-12F](https://lh3.googleusercontent.com/drive-viewer/AK7aPaAG93LVSAzk5GQclE2lyVSRwGy80LYyozUJmC3YLs2CSrvf6av5KyDyBxlZ9_uMyOBkBivQjXbnTspiiOzY9DqvHtJtMA=s2560)
-![](https://lh3.googleusercontent.com/drive-viewer/AK7aPaCPZdjTDXNr2Zh1MT2BmbqldaLAQBCGFISfy0OaFy00X-ir4UMmoYG4gTTKeIlMgjOaT2N2dk-ZlhLnhLJkgOyySsn6mQ=s2560)
-
+<img src="../img/ESP-12F.jpg">
+<img src="../img/TFT-display-touch.jpg">
         1. Cut a 100mm length of the suggest color of wire and strip both ends 12mm
         34. Wrap the wire onto the selected pin of the ESP-12F
         35. Cut two 8mm lengths of tubing and slide onto the wire.
