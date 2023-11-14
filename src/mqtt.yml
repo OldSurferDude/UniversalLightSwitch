@@ -1,0 +1,21 @@
+- switch:
+    name: ULS000
+    unique_id: ULS000
+    command_topic: "ULS/activity/0"
+    state_topic: "ULS/activity/0"
+    payload_on: "100"
+    payload_off: "0"
+- switch:
+    name: ULS001
+    unique_id: ULS001
+    command_topic: "ULS/activity/1"
+    state_topic: "ULS/activity/1"
+    payload_on: "100"
+    payload_off: "0"
+- switch:
+    name: ULS002
+    unique_id: ULS002
+    command_topic: "ULS/activity/2"
+    state_topic: "ULS/activity/2"
+    payload_on: "100"
+    payload_off: "0"
