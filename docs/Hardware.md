@@ -113,7 +113,7 @@
         30. Wrap the 100mm wire to the EN pin
         31. Push the 8mm of tubing over both wires and EN pin to cover wire wrapping
         32. Use heat gun to shrink tubing
-    23. Wrapping data and control pins.
+    23. Wrapping data and control pins.<br>
         The chart/picture below shows pins of the ESP-12F and to which pin of the display the pin must be connected.   The GND and VCC pins already have the wires connected to the ESP-12F.  One red and one black wire will be connected to the buck converter.  Use the picture to the right as a guide to the display pins.  Repeat for each wire: <img src="../img/ESP-12F.jpg"><img src="../img/TFT-display-touch.jpg">
         1. Cut a 100mm length of the suggest color of wire and strip both ends 12mm
         34. Wrap the wire onto the selected pin of the ESP-12F
