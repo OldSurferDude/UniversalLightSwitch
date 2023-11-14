@@ -8,25 +8,16 @@ pre.CodeMirror-line {
 
 
 # Parts
-
-[ESP-12F](https://www.aliexpress.us/item/2251801851082242.html)
-
-[1.8” TFT display /w touch screen ](https://www.aliexpress.us/item/3256804157566656.html)(includes pin headers and foam separator)
-
-[85-265VAC to 3.3VDC 700mA Buck Converter](https://www.aliexpress.us/item/2255800650733586.html) 
-
-[3.3kΩ 1/8W resistor](https://www.amazon.com/dp/B01MDJQ1II) (1) (assortment of thousands of resistors) (another value may work just as well)
-
-[M3 x 10 screws](https://www.aliexpress.us/item/3256805291929158.html) (qty 4) (package of 20)
-
-[2mm single row straight male header](https://www.amazon.com/gp/product/B012TBLZTC) (2x 8 pins, 2x 1 pin) (package of 18 1x40 pins ea.)  
-     (alternative [8 pin headers](https://www.amazon.com/dp/B07J5B9LT5) (qty 2) (pins of headers used as posts for wire wrapping the ESP-12F)
-
-[Compact Electrical Cable Terminal Block](https://www.aliexpress.us/item/3256804992243238.html) (qty 2) (package of 34)
-
-[Heat shrink tubing, 1mm diameter](https://www.amazon.com/Uxcell-a11110900ux0075-Shrinkable-Shrink-Tubing/dp/B00843KWKS/ref=sr_1_3)
-
-[3D printed enclosure](https://drive.google.com/file/d/1mrjO87gIkhDF_7CDPRVbjMBAb8dsjzF4/view?usp=drive_link)
+* [ESP-12F](https://www.aliexpress.us/item/2251801851082242.html)
+* [1.8” TFT display /w touch screen ](https://www.aliexpress.us/item/3256804157566656.html)(includes pin headers and foam separator)
+* [85-265VAC to 3.3VDC 700mA Buck Converter](https://www.aliexpress.us/item/2255800650733586.html)
+* [3.3kΩ 1/8W resistor](https://www.amazon.com/dp/B01MDJQ1II) (1) (assortment of thousands of resistors) (another value may work just as well)
+* [M3 x 10 screws](https://www.aliexpress.us/item/3256805291929158.html) (qty 4) (package of 20)
+* [2mm single row straight male header](https://www.amazon.com/gp/product/B012TBLZTC) (2x 8 pins, 2x 1 pin) (package of 18 1x40 pins ea.)
+  * (alternative [8 pin headers](https://www.amazon.com/dp/B07J5B9LT5) (qty 2) (pins of headers used as posts for wire wrapping the ESP-12F)
+* [Compact Electrical Cable Terminal Block](https://www.aliexpress.us/item/3256804992243238.html) (qty 2) (package of 34)
+* [Heat shrink tubing, 1mm diameter](https://www.amazon.com/Uxcell-a11110900ux0075-Shrinkable-Shrink-Tubing/dp/B00843KWKS/ref=sr_1_3)
+* [3D printed enclosure](https://drive.google.com/file/d/1mrjO87gIkhDF_7CDPRVbjMBAb8dsjzF4/view?usp=drive_link)<br>
     The STL file for the 3D model is provided.  The printing of this enclosure is up to the builder.
 
 #### 3D printed enclosure design notes
